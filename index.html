@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="columns is-gapless">
+        <div class="column">
+          <img src="https://www.pole-emploi.fr/accueil/file/sitemodel/pefr/images/accueil/header-logo-pole-emploi-mono.png" width="143" height="40" alt="">
+          <span class="button is-white">Menu</span>
+        </div>
+        <div class="column is-two-thirds">
+          Place Ads Here
+        </div>
+        <div class="column">
+          <span class="button is-white">Connexion</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="firstrow">
+        <div class="columns is-gapless">
+          <div class="column">
+          </div>
+          <div class="column is-half" id="offres">
+            <h5 class="title is-5"><em>Accédez à tous nos services en ligne !</em></h5>
+            <h3 class="title is-3">532 741 offres d'emploi disponibles</h3>
+            <div class="field has-addons">
+              <div class="control">
+                <input class="input" type="text" placeholder="Métier, compétence, mot-clé, n°d'offre">
+              </div>
+              <div class="field has-addons">
+                <div class="control">
+                  <input class="input" type="text" placeholder="Lieu de travail">
+                </div>
+                <div class="control" id="search">
+                  <a class="button is-text">
+                    <img src="http://simpleicon.com/wp-content/uploads/active-search.png" class="lens">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <label class="checkbox">
+              <input type="checkbox">
+              Inclure les offres de nos partenaires
+            </label>
+          </div>
+          <div class="column">
+          </div>
+        </div>
+      </div>
+      <div class="secondrow">
+        <div class="columns is-gapless">
+          <div class="column">
+          </div>
+          <div class="column">
+            <a class="button is-large" id="espers">
+              <p><strong>ESPACE</strong><br>PERSONNEL</p>
+            </a>
+            <p>Gérer mon dossier,</p>
+            <p>Publier mon CV</p>
+          </div>
+          <div class="column">
+            <a class="button is-large">
+              <span class="icon">
+                <img src="https://plexusgraphics.com/wp-content/uploads/2016/02/cropped-Editing-Pen-icon.png" id="pen">
+              </span>
+            </a>
+            <p>M'inscrire, me réinscrire</p>
+            <p>(demandeur d'emploi)</p>
+          </div>
+          <div class="column">
+            <a class="button is-large">
+              <span class="icon">
+                <img src="https://cdn2.iconfinder.com/data/icons/school-set-5/512/19-512.png" id="book">
+              </span>
+            </a>
+            <p>Trouver ma</p>
+            <p>formation</p>
+          </div>
+          <div class="column">
+            <a class="button is-large">
+              <p><strong>E</strong>S</p>
+            </a>
+            <p>Emploi Store</p>
+            <br>
+          </div>
+          <div class="column">
+            <a class="button is-large">
+              <span class="icon">
+                <img src='https://cdn3.iconfinder.com/data/icons/medicon/512/more_format_indent_users_plus-512.png' id="dots">
+              </span>
+            </a>
+            <p>Plus de services</p>
+            <br>
+          </div>
+          <div class="column">
+          </div>
+        </div>
+      </div>
+      <div class="thirdrow">
+        <div class="columns">
+          <div class="column">
+          </div>
+          <div class="column is-one-quarter" id="actus">
+            <h3 class="title is-3">Actualités de l'emploi</h3>
+          </div>
+          <div class="column" id="field">
+            <div class="field has-addons">
+              <div class="control">
+                <input class="input is-small" type="text" placeholder="Rechercher une information sur Pôle emploi">
+              </div>
+              <div class="control" id="search2">
+                <a class="button is-text is-small">
+                  <img src="http://simpleicon.com/wp-content/uploads/active-search.png" class="lens">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fourthrow">
+        <div class="columns">
+          <div class="column">
+          </div>
+          <div class="column is-three-quarters">
+            <div class="columns" class="fourthrow2" id="f2">
+              <div class="column is-half">
+                <div class="columns" class="fourthrow3">
+                  <div class="column is-one-third" id="gps">
+                    <img src="https://www.pole-emploi.fr/accueil/image/mmlelement/pj/e4/a6/ec/0e/img-home-region48861.svg">
+                  </div>
+                  <div class="column" id="gps2">
+                    <h4 class="title is-4"><b>Retrouvez toute l'actualité dans votre région !</b></h4>
+                    <p>Des actualités, des événements des opportunités d'emploi et de formation près de chez vous.</p>
+                    <br>
+                    <a class="button is-rounded">EN DIRECT DES REGIONS</a>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-half">
+                <div class="columns" class="fourthrow4">
+                  <div class="column is-one-third" id="mega">
+                    <img src="https://www.pole-emploi.fr/accueil/image/mmlelement/pj/ce/04/95/23/img-home-alerte48860.svg">
+                  </div>
+                  <div class="column" id="mega2">
+                    <h4 class="title is-4"><b>Soyez vigilant !</b></h4>
+                    <p>Consultez les différentes alertes Pôle emploi au sujet des arnaques et diverses fraudes possibles !</p>
+                    <br><br>
+                    <a class="button is-rounded">EN SAVOIR PLUS</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+          </div>
+        </div>
+      </div>
+      <div class="gallery">
+        
+      </div>
+    </main>
+  </body>
+</html>

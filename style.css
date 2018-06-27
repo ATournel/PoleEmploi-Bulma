@@ -1,0 +1,164 @@
+header {
+  text-align: center;
+}
+
+header .columns {
+  height: 10vh;
+}
+
+header .column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #E5E9EC;
+  background-image: url('https://www.pole-emploi.fr/accueil/image/mmlelement/pj/ea/bc/95/24/home-cover-48859.jpg');
+  background-position: center;
+  height: 86vh;
+}
+
+.firstrow {
+  height: 68%;
+}
+
+#offres {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+  margin-top: 15vh;
+}
+
+#offres h5 {
+  color: inherit;
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+}
+
+#offres h3 {
+  color: inherit;
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+  padding-bottom: 5vh;
+}
+
+.secondrow .column {
+  height: 22.5vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondrow {
+  margin-bottom: 6.5vh;
+}
+
+p {
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+  font-size: 0.90em;
+}
+
+.secondrow .button {
+  border-radius: 50%;
+  border: none;
+  margin-bottom: 10%;
+  background-image: linear-gradient(rgb(255, 99, 89) 0%, rgb(255, 72, 62) 100%);
+  width: 82px;
+  height: 82px;
+}
+
+#search {
+  background-image: linear-gradient(rgb(255, 99, 89) 0%, rgb(255, 72, 62) 100%);
+}
+
+#espers {
+  font-size: 0.80em;
+  color: white;
+}
+
+.thirdrow {
+  height: 20vh;
+}
+
+.thirdrow .column {
+  height: 20vh;
+  background-color: #E5E9EC;
+}
+
+#actus {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#field {
+  display:flex;
+  align-items: center;
+}
+
+#search2 {
+  background-color: #787D84;
+}
+
+.lens {
+  height: 25px;
+  width: 25px;
+}
+
+.fourthrow {
+  height: 30vh;
+  background-color: #E5E9EC;
+}
+
+.fourthrow2 {
+  height: 30vh;
+}
+
+.fourthrow3 {
+  height: 30vh;
+}
+
+.fourthrow4 {
+  height: 30vh;
+}
+
+#f2 {
+  background-color: white;
+}
+
+#gps{
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+#mega{
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+#gps2, #mega2 {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#meaga2 p, #gps2 p {
+  font-size: 0.8em;
+}
+
+#gps2 .title {
+  color: #E8A53D;
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+}
+
+#mega2 .title {
+  color: #1C3F55;
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+}
